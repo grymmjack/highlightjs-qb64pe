@@ -1,0 +1,74 @@
+/*
+QB64PE Style
+*/
+
+code.language-QB64PE {
+  display: block;
+  color: rgb(226, 226, 226);
+  background: rgb(0, 0, 69);
+  font-size: 18px; 
+  padding: 16px;
+}
+
+.hljs {
+  color: rgb(226, 226, 226);
+  background: rgb(0, 0, 69);
+}
+
+
+.hljs-subst {
+  /* default */
+}
+
+.hljs-string,
+.hljs-attribute,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-built_in,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-addition {
+  color: rgb(255, 177, 0);
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-section,
+.hljs-type,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-variable {
+  color: rgb(69, 147, 216);
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-doctag,
+.hljs-deletion {
+  color: rgb(49, 196, 196);
+}
+
+.hljs-number,
+.hljs-regexp,
+.hljs-literal,
+.hljs-link {
+  color: rgb(245, 128, 177);
+}
+
+.hljs-meta {
+  color: rgb(85, 255, 85);
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-title,
+.hljs-section,
+.hljs-name,
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
