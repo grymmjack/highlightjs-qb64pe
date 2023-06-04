@@ -1,0 +1,40 @@
+COLOR 0,7
+PRINT "qb64phoenix.com meet qbjs.org!                                        "
+COLOR 7,0
+PRINT
+PRINT "This code is running inside of an ";
+COLOR 15 : PRINT "<IFRAME>"; : COLOR 7 : PRINT " tag!"
+PRINT
+PRINT "QBJS, and the code inside has no ability to see, interact, or change"
+PRINT "anything besides what is in the IFRAME."
+PRINT
+COLOR 10
+PRINT "It is completely safe."
+COLOR 7
+PRINT
+PRINT "The code you share is not owned by qb64phoenix.com site, or any"
+PRINT "one person. It's yours and only you can change it after it is shared."
+PRINT
+COLOR 14, 1
+PRINT UCASE(" *** To learn more about ");
+COLOR 9 : PRINT "QB"; : COLOR 3: PRINT "JS"; : COLOR 14
+PRINT UCASE(", visit the following links: ***          ")
+COLOR 7, 0
+PRINT
+LearnMore
+COLOR 0, 15
+PRINT
+PRINT STRING$(71, " ")
+PRINT "          YOU CAN DO ALMOST ANYTHING YOU CAN DO IN QBASIC            "
+PRINT "  See: https://github.com/boxgaming/qbjs/wiki/QBasic-Language-Support  "
+PRINT "  And: https://github.com/boxgaming/qbjs/wiki/Supported-Keywords      "
+PRINT STRING$(71, " ")
+PRINT
+SUB LearnMore
+    CALL ColoredBullet("GitHub: https://github.com/boxgaming/qbjs", 10)
+    CALL ColoredBullet("Wiki: https://github.com/boxgaming/qbjs/wiki", 11)
+    CALL ColoredBullet("IDE: https://qbjs.org", 14)   
+END SUB
+SUB ColoredBullet(text AS STRING, kolor AS INTEGER)
+    COLOR 15 : PRINT "    >> "; : COLOR kolor% : PRINT text$
+END SUB
